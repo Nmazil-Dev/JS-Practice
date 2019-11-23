@@ -1,0 +1,20 @@
+body{
+    background: whitesmoke;
+}
+.grid-row{
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: inherit;
+}
+
+
+.grid-item{
+    height: 200px;
+    width: 100%;
+    background: white;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    border-radius: 400px;
+
+}

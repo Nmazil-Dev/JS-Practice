@@ -1,0 +1,34 @@
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* aligns the content horizontally */
+    align-items: center; /* aligns the content vertically*/
+}
+
+/* sets the settings for the .colorBtn class*/
+.colorBtn{
+    display: flex;
+    padding: 1rem; /* sets the edges of the button */
+    border: 3px solid #fefefe; /*sets the color of the button's border */
+    border-radius: 10px; /* rounds the edges of the button */
+    color: #fefefe; /* sets the font color */
+    background: rgba(0,0,0,0.6); /* sets the button color and opacity */
+    font-size: 1.5rem; /* sets the font size for the button */
+    text-transform: capitalize; /* capitalizes every first letter */
+    cursor: pointer; /* changes the cursor to a pointer when hovered over */
+    }
+
+.colorBtn:hover{
+    background: rgb(78, 101, 218);
+}
+
+.colorNameSet{
+    font-size: 2rem;
+    color: #fefefe;
+    margin-top: 50px;
+    border-radius: 5px;
+    padding:  0.5rem;
+
+}
